@@ -1,6 +1,6 @@
 = Liferay Portal 7 elasticsearch docker image
 
-. Liferay link:https://portal.liferay.dev/docs/7-2/deploy/-/knowledge_base/d/installing-elasticsearch#step-three-install-elasticsearch-plugins[requirements] for elasticseach instance
+. Liferay link:https://learn.liferay.com/dxp/7.x/en/using-search/installing-and-upgrading-a-search-engine/elasticsearch/installing-elasticsearch.html[requirements] for elasticseach instance
 
 == Installation
 [source,bash]
