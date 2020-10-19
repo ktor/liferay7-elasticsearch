@@ -1,9 +1,9 @@
 = Liferay Portal 7 elasticsearch docker image
 
-. Liferay link:https://learn.liferay.com/dxp/7.x/en/using-search/installing-and-upgrading-a-search-engine/elasticsearch/installing-elasticsearch.html[requirements] for elasticseach instance
+Standard elasticsearch image that contains plugins listed by Liferay Portal as link:https://learn.liferay.com/dxp/7.x/en/using-search/installing-and-upgrading-a-search-engine/elasticsearch/installing-elasticsearch.html[required] for use with Liferay Portal.
 
 == Installation
 [source,bash]
 ----
-docker run -p 9200:9200 -p 9300:9300 ktorek/liferay7-elasticsearch
+docker run -p 9200:9200 -p 9300:9300 ktorek/liferay7-elasticsearch:7.3.4
 ----
